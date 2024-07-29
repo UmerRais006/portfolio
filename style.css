@@ -1,0 +1,1077 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.mainContainer {
+    /* border: solid 2px black; */
+    width: 216vh;
+    /* height: 290vh;
+    background-color: #f1f1f1; */
+}
+
+.mainContainer .sideBar {
+    width: 18.5rem;
+    /* border: solid 2px black; */
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+
+
+}
+
+
+.mainContainer .sideBar img {
+    margin-top: 1.5rem;
+    margin-left: 1.1rem;
+    border-radius: 5px;
+    height: 120px;
+}
+
+.mainContainer .sideBar h2 {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+
+.mainContainer .sideBar p {
+    color: #757575;
+    font-family: "Raleway", sans-serif;
+    margin-top: 0.9rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.mainContainer .sideBar .first li .fa {
+    padding-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0.7rem;
+}
+
+.mainContainer .sideBar .first li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.mainContainer .sideBar .first li {
+    text-decoration: none;
+    color: black;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.mainContainer .sideBar .first li:hover {
+    background-color: #ccc6c6f1;
+    cursor: pointer;
+
+}
+
+.mainContainer .sideBar .second li .fa {
+    text-decoration: none;
+    margin: 0.2rem;
+    color: black;
+}
+
+.mainContainer .sideBar .second {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    list-style: none;
+
+}
+
+.mainContainer .sideBar .second li .fa:hover {
+    opacity: 0.6;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+.mainContainer .header {
+
+    margin-left: 18.75em;
+    /* border: rgb(0, 0, 0) solid 3px; */
+    position: absolute;
+    top: 0;
+    width: 60em;
+    height: 10.6rem;
+    background-color: #f1f1f1;
+
+
+}
+
+.mainContainer .header img {
+    height: 80px;
+    border-radius: 100px;
+    margin-left: 570px;
+    margin-top: 20px;
+    box-sizing: inherit;
+}
+
+.mainContainer .header h1 {
+    font-family: "Raleway", sans-serif;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.mainContainer .header p {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 2.9em;
+    font-weight: 100px;
+    font-family: "Raleway", sans-serif;
+    width: 41px;
+
+}
+
+.mainContainer .header .opt {
+
+    display: flex;
+    margin-left: 4.4em;
+
+    position: relative;
+    bottom: 28px;
+    width: max-content;
+    height: 38px;
+}
+
+.mainContainer .header .opt button {
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    border: 0;
+
+
+}
+
+.mainContainer .header .opt button .fa {
+    margin-right: 15px;
+
+}
+
+.mainContainer .header .opt .b1 {
+    width: 55px;
+    color: aqua;
+    background-color: black;
+    border: 0;
+}
+
+.mainContainer .header .opt .b2,
+.b3 {
+    width: 100px;
+    background-color: white;
+}
+
+.mainContainer .header .opt .b4 {
+    width: 70px;
+    background-color: white;
+}
+
+.mainContainer .header .opt .b1:hover {
+    color: white;
+    background-color: #d5cfcf;
+}
+
+.mainContainer .header .opt .b2:hover {
+    background-color: #d5cfcf;
+}
+
+.mainContainer .header .opt .b3:hover {
+    background-color: #d5cfcf;
+}
+
+.mainContainer .header .opt .b4:hover {
+    background-color: #d5cfcf;
+}
+
+.mainContainer .header hr {
+    height: 5px;
+    background-color: #d5cfcf;
+    position: relative;
+    border: 0;
+    bottom: 10px;
+    width: 930px;
+    left: 10px;
+}
+
+.mainContainer .firstgrid {
+
+    background-color: #f1f1f1;
+    /* border: 2px solid black; */
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 60.15em;
+    position: absolute;
+    margin-left: 18.7em;
+    margin-top: -26.2em;
+    padding-bottom: 1em;
+}
+
+.mainContainer .firstgrid .pic1,
+.pic2,
+.pic3 {
+    /* border: 2px solid black; */
+    margin-top: 3px;
+    display: block;
+    height: 355px;
+    width: 300px;
+    margin-left: 2px;
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+}
+
+
+.mainContainer .firstgrid .pic1 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mainContainer .firstgrid .pic2 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mainContainer .firstgrid .pic3 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mainContainer .firstgrid img:hover {
+    opacity: 0.8;
+}
+
+/*-------------------------- second grid -------------------------- */
+.mainContainer .secondgrid {
+
+    background-color: #f1f1f1;
+    /* border: 2px solid black; */
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 60.15em;
+    position: absolute;
+    margin-left: 18.7em;
+    margin-top: -2.9em;
+    padding-bottom: 1em;
+}
+
+.mainContainer .secondgrid .pic1,
+.pic2,
+.pic3 {
+    /* border: 2px solid black; */
+    margin-top: 3px;
+    display: block;
+    height: 355px;
+    width: 300px;
+    margin-left: 2px;
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+}
+
+
+.mainContainer .secondgrid .pic1 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mainContainer .secondgrid .pic2 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mainContainer .secondgrid .pic3 p {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.mainContainer .secondgrid img:hover {
+    opacity: 0.8;
+}
+
+/* ---------NUMBERING------- */
+.numbering {
+    /* border: solid 2px black; */
+    margin-left: 18.5em;
+    height: 5em;
+    margin-top: 21em;
+    width: 950px;
+
+}
+
+.mainContainer .numbering ul {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+
+
+}
+
+.mainContainer .numbering ul li {
+    list-style: none;
+    gap: 5px;
+    /* border: 2px solid black; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: "Raleway", sans-serif;
+}
+
+.mainContainer .numbering ul .l2 {
+    color: white;
+    background-color: black;
+}
+
+.mainContainer .numbering ul .l2:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(176, 182, 181);
+}
+
+.mainContainer .numbering ul .l1:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.mainContainer .numbering ul .l3:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.mainContainer .numbering ul .l4:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.mainContainer .numbering ul .l5:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.mainContainer .numbering ul .l6:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.mainContainer .twoPictures {
+    /* border: solid 2px black; */
+    height: 290px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+    width: 960px;
+    margin-left: 18.5em;
+
+    padding-top: 8px;
+
+}
+
+.mainContainer .twoPictures img {
+    margin-left: 10px;
+
+}
+
+/* _______________ABOUT ME______________ */
+.mainContainer .aboutme {
+    font-family: "Raleway", sans-serif;
+    /* border: 2px solid black; */
+    width: 960px;
+    height: 600px;
+    margin-left: 18.5em;
+}
+
+.mainContainer .aboutme>h4:first-child {
+    padding-top: 20px;
+    padding-left: 17px;
+    font-size: 20px;
+}
+
+
+
+.mainContainer .aboutme p {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.mainContainer .aboutme>p:nth-of-type(2) {
+    font-size: 20px;
+}
+
+.mainContainer .aboutme .width1 {
+
+    height: 38.5px;
+    width: 915px;
+    margin-top: 1em;
+    margin-left: 20px;
+    background-color: #9e9e9e;
+}
+
+.mainContainer .aboutme .width1 .width11 {
+    text-align: center;
+    height: 38.5px;
+    width: 870px;
+    background-color: #616161;
+}
+
+.mainContainer .aboutme .width1 .width11 p {
+    position: relative;
+    bottom: 11px;
+    color: white;
+}
+
+.mainContainer .aboutme .width2 {
+
+    height: 38.5px;
+    width: 915px;
+    margin-top: 1em;
+    margin-left: 20px;
+    background-color: #9e9e9e;
+}
+
+.mainContainer .aboutme .width2 .width22 {
+    text-align: center;
+    height: 38.5px;
+    width: 780px;
+    background-color: #616161;
+}
+
+.mainContainer .aboutme .width2 .width22 p {
+    position: relative;
+    bottom: 11px;
+    color: white;
+}
+
+.mainContainer .aboutme .width3 {
+
+    height: 38.5px;
+    width: 915px;
+    margin-top: 1em;
+    margin-left: 20px;
+    background-color: #9e9e9e;
+}
+
+.mainContainer .aboutme .width3 .width33 {
+    text-align: center;
+    height: 38.5px;
+    width: 720px;
+    background-color: #616161;
+}
+
+.mainContainer .aboutme .width3 .width33 p {
+    position: relative;
+    bottom: 11px;
+    color: white;
+}
+
+.mainContainer .aboutme button {
+    margin-top: 2em;
+    margin-left: 1.6em;
+    border: 0;
+    height: 50px;
+    background-color: #616161;
+    color: white;
+    width: 220px;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+}
+
+.mainContainer .aboutme button:hover {
+    background-color: #c3c0c0;
+    color: black;
+}
+
+.mainContainer .aboutme button .fa {
+    padding-right: 15px;
+}
+
+/* _______________CHARGES------------------------- */
+/* ====================FIRST++++++++++++++ */
+.mainContainer .charges {
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 1;
+    width: 963px;
+    margin-left: 18.5em;
+    height: 550px;
+    font-family: "Raleway", sans-serif;
+}
+
+.mainContainer .charges .firstCharge {
+    border: 1px solid black;
+    margin-left: 15px;
+    opacity: 0.60;
+}
+
+.mainContainer .charges .firstCharge:hover {
+    opacity: 1;
+}
+
+.mainContainer .charges .firstCharge ul {
+    list-style: none;
+
+}
+
+.mainContainer .charges .firstCharge ul .first1 {
+    /* border: 2px solid black; */
+    width: 18.9em;
+    height: 6.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
+
+.mainContainer .charges .firstCharge ul .first1 p {
+    font-size: 23px;
+}
+
+.mainContainer .charges .firstCharge ul .first2 {
+
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+    color: #070707;
+    background-color: #faf9f9;
+
+}
+
+.mainContainer .charges .firstCharge ul .first3 {
+    color: #616161;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: #faf9f9;
+
+}
+
+.mainContainer .charges .firstCharge ul .first3 p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.mainContainer .charges .firstCharge ul li button {
+    border: 0;
+    position: relative;
+    left: 90px;
+    top: 17px;
+    color: white;
+    background-color: #928e8e;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+/* _______________CHARGES------------------------- */
+/* ====================SECOND++++++++++++++ */
+
+.mainContainer .charges .secondCharge {
+    /* border: 2px solid black; */
+    border: 1px solid black;
+    margin-left: 15px;
+    opacity: 0.60;
+}
+
+.mainContainer .charges .secondCharge:hover {
+    opacity: 1;
+}
+
+.mainContainer .charges .secondCharge ul {
+    list-style: none;
+
+}
+
+.mainContainer .charges .secondCharge ul .second1 {
+    /* border: 2px solid black; */
+    width: 18.9em;
+    height: 6.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9b9384;
+    color: white;
+}
+
+.mainContainer .charges .secondCharge ul .second1 p {
+    font-size: 23px;
+}
+
+.mainContainer .charges .secondCharge ul .second2 {
+
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+    color: #070707;
+    background-color: #faf9f9;
+
+}
+
+.mainContainer .charges .secondCharge ul .second3 {
+    color: #616161;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: #faf9f9;
+
+}
+
+.mainContainer .charges .secondCharge ul .second3 p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.mainContainer .charges .secondCharge ul li button {
+    border: 0;
+    position: relative;
+    left: 90px;
+    top: 17px;
+    color: white;
+    background-color: #928e8e;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+/* _______________CHARGES------------------------- */
+/* ====================++++++++++++++ */
+
+.mainContainer .charges .thirdCharge {
+    /* border: 2px solid black; */
+    border: 1px solid black;
+    margin-left: 15px;
+    opacity: 0.60;
+}
+
+.mainContainer .charges .thirdCharge:hover {
+    opacity: 1;
+}
+
+.mainContainer .charges .thirdCharge ul {
+    list-style: none;
+
+}
+
+.mainContainer .charges .thirdCharge ul .third1 {
+    /* border: 2px solid black; */
+    width: 18.9em;
+    height: 6.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+}
+
+.mainContainer .charges .thirdCharge ul .third1 p {
+    font-size: 23px;
+}
+
+.mainContainer .charges .thirdCharge ul .third2 {
+
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+    color: #070707;
+    background-color: #faf9f9;
+
+}
+
+.mainContainer .charges .thirdCharge ul .third3 {
+    color: #616161;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+    background-color: #faf9f9;
+
+}
+
+.mainContainer .charges .thirdCharge ul .third3 p {
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.mainContainer .charges .thirdCharge ul li button {
+    border: 0;
+    position: relative;
+    left: 90px;
+    top: 17px;
+    color: white;
+    background-color: #928e8e;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+/* ___________________CONTACT ME______________________ */
+.mainContainer .contactme {
+    /* border: solid 2px black; */
+    margin-left: 18.5em;
+    height: 36.3em;
+    text-align: start;
+    width: 960px;
+    font-family: "Raleway", sans-serif;
+    background-color: #928e8e;
+    margin-top: 60px;
+}
+
+.mainContainer .contactme #contactMe {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+
+.mainContainer .contactme .threeopt {
+    /* border: solid 2px black; */
+    height: 6em;
+    width: 59em;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.mainContainer .contactme .threeopt .opt1 {
+    /* border: solid 2px black; */
+    width: 19em;
+    height: 6em;
+    background-color: #616161;
+    color: white;
+    align-content: center;
+}
+
+.mainContainer .contactme .threeopt .opt1 p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.mainContainer .contactme .threeopt .opt2 {
+    /* border: solid 2px black; */
+    width: 19em;
+    height: 6em;
+    background-color: #aaa99d;
+    color: white;
+    align-content: center;
+}
+
+.mainContainer .contactme .threeopt .opt2 p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.mainContainer .contactme .threeopt .opt3 {
+    /* border: solid 2px black; */
+    width: 19em;
+    height: 6em;
+    background-color: #616161;
+    color: white;
+    align-content: center;
+}
+
+.mainContainer .contactme .threeopt .opt3 p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.mainContainer .contactme form {
+    margin-left: 20px;
+}
+
+.mainContainer .contactme form button {
+    border: 0;
+    width: 12em;
+    height: 3em;
+    color: white;
+    cursor: pointer;
+    background-color: #000000;
+    font-family: "Raleway", sans-serif;
+}
+
+.mainContainer .contactme form button .fa {
+    padding-right: 14px;
+}
+
+.mainContainer .contactme form .input1 input {
+    width: 67.7em;
+    height: 40px;
+
+
+}
+
+.mainContainer .contactme form .input2 input {
+    width: 67.7em;
+    height: 40px;
+}
+
+.mainContainer .contactme form .input3 input {
+    width: 67.7em;
+    height: 45px;
+}
+
+/*++++++++++++++++FOOTER++++++++++++++++++++++++++ */
+.mainContainer .footer {
+    /* border: solid 2px black; */
+    width: 59.8em;
+    height: 13.4em;
+    margin-left: 18.5em;
+    background-color: #616161;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    padding-top: 20px;
+}
+
+.mainContainer .footer .innerfooter {
+    /* border: solid 2px black; */
+    width: 56.8em;
+    height: 11.9em;
+    margin-top: 15px;
+    margin-left: 21px;
+
+}
+
+.mainContainer .footer .innerfooter .footergrid {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    height: 11.9em;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner1 {
+    /* border: solid 2px black; */
+    color: white;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner1 .p1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner1 p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner1 a {
+    color: white;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 {
+    /* border: solid 2px black; */
+    color: white;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul {
+    list-style: none;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl1 {
+    height: 65px;
+    /* border: 2px solid black; */
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl1:hover {
+    background-color: #f1f1f1;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl1 img {
+    padding-top: 7px;
+    padding-left: 10px;
+    float: left;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl1 span {
+    margin-left: 15px;
+
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl2 {
+    height: 65px;
+    /* border: 2px solid black; */
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl2 img {
+    float: left;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl2 span {
+    margin-left: 15px;
+
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner2 ul .footerl2:hover {
+    background-color: #f1f1f1;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 {
+    /* border: solid 2px black; */
+    color: white;
+
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 .ul1,
+.ul2,
+.ul3,
+.ul4 {
+    margin-top: 9px;
+    margin-left: 10px;
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 #ul11 {
+    background-color: #000000;
+    color: white;
+
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 .ul1 li {
+
+    /* border: 2px black solid; */
+    color: #000000;
+    background-color: #9e9e9e;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 .ul2 li {
+    /* border: 2px black solid; */
+    color: #000000;
+    background-color: #9e9e9e;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 .ul3 li {
+    /* border: 2px black solid; */
+    color: #000000;
+    background-color: #9e9e9e;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.mainContainer .footer .innerfooter .footergrid .inner3 .ul4 li {
+    /* border: 2px black solid; */
+    color: #000000;
+    background-color: #9e9e9e;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.mainContainer .black {
+    height: 90px;
+    background-color: #000000;
+    width: 59.8em;
+    margin-left: 18.5em;
+}
+
+.mainContainer .black p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+   text-align: center;
+   position: relative;
+   top: 40%;
+
+}
+
+
+@media screen and (max-width : 990px) {
+
+    .mainContainer .header {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        box-sizing: inherit;
+    }
+
+    .mainContainer .sideBar {
+        display: none;
+    }
+
+    .mainContainer .header {
+
+        height: 16.7rem;
+    }
+
+    .mainContainer .firstgrid {
+        margin-top: 16.5em;
+        margin-left: 0;
+    }
+
+    .mainContainer .secondgrid {
+        margin-top: 39.9em;
+        margin-left: 0;
+    }
+
+
+
+}
+
+@media screen and (max-width : 600px) {
+
+    .mainContainer .header .opt .b3,
+    .b4 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:990px) {
+    .mainContainer .header img {
+        display: none;
+    }
+
+}
